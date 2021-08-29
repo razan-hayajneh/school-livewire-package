@@ -1,0 +1,25 @@
+{
+    "name": "system/school",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "System\\School\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Razanhasan",
+            "email": "razanhasan896@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "System\\School\\SchoolServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
