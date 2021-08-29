@@ -16,6 +16,10 @@
 ##       System\School\SchoolServiceProvider::class,
 ## then run in terminal: 
 ##       php artisan vendor:publish --provider="System\School\SchoolServiceProvider"  
+## in routes-> web.php edit:
+    Route::group(['namespace'=>'System\School\Http\Livewire']
+    Route::group(['namespace'=>'App\Http\Livewire']
+## and app->http->livewire edit namespace from System\School\Http\Livewire to App\Http\Livewire
  
 ## 3.In the database/seeds/DatabaseSeeder.php file 
 ## $this->call(LaratrustSeeder::class);
