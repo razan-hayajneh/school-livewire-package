@@ -1,6 +1,6 @@
 <?php
 
-namespace System\School\Http\Livewire;
+namespace Razan\School\Http\Livewire;
 use Livewire\WithFileUploads;
 use App\Models\Task;
 use App\Models\Student;

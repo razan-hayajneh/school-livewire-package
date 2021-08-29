@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(['namespace'=>'System\School\Http\Livewire'],function(){
+Route::group(['namespace'=>'Razan\School\Http\Livewire'],function(){
 
     Route::get('/', function () {
         return view('auth.login');

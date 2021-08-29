@@ -1,5 +1,5 @@
 <?php
-namespace System\School\Http\Livewire;
+namespace Razan\School\Http\Livewire;
 use Livewire\Component;
 use App\Models\Teacher;
 use App\Models\User;

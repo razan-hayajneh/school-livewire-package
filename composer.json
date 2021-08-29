@@ -1,10 +1,10 @@
 {
-    "name": "system/school",
+    "name": "razan/school",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "System\\School\\": "src/"
+            "Razan\\School\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "System\\School\\SchoolServiceProvider"
+                "Razan\\School\\SchoolServiceProvider"
             ]
         }
     },

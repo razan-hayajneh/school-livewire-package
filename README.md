@@ -1,6 +1,6 @@
-# school system package
+# school Razan package
 
-## 1.before install school system package, require use this commands:
+## 1.before install school Razan package, require use this commands:
 
  composer require laravel/jetstream
 
@@ -17,14 +17,14 @@
  php artisan laratrust:seeder
  
 ## 2.
-    composer require system/school
+    composer require razan/school
 ## in config->app.php add to providers array 
-       System\School\SchoolServiceProvider::class,
+       Razan\School\SchoolServiceProvider::class,
 ## then run in terminal: 
-       php artisan vendor:publish --provider="System\School\SchoolServiceProvider"  
-## in routes-> web.php edit:Route::group(['namespace'=>'System\School\Http\Livewire']
+       php artisan vendor:publish --provider="Razan\School\SchoolServiceProvider"  
+## in routes-> web.php edit:Route::group(['namespace'=>'Razan\School\Http\Livewire']
     Route::group(['namespace'=>'App\Http\Livewire']
-## and app->http->livewire edit namespace from System\School\Http\Livewire to 
+## and app->http->livewire edit namespace from Razan\School\Http\Livewire to 
         App\Http\Livewire
  
 ## 3.In the database/seeds/DatabaseSeeder.php file 

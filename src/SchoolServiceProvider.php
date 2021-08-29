@@ -1,6 +1,6 @@
 <?php
 
-namespace System\School;
+namespace Razan\School;
 
 use Illuminate\Support\ServiceProvider;
 
